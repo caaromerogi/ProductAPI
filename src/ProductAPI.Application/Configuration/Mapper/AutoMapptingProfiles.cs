@@ -6,7 +6,7 @@ namespace ProductAPI.Application.Configuration.Mapper;
 
 public class AutoMappingProfiles : Profile
 {
-    protected AutoMappingProfiles()
+    public AutoMappingProfiles()
     {
         CreateMap<CreateProductCommand, Product>().ReverseMap();
     }

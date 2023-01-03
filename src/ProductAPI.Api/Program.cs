@@ -1,3 +1,5 @@
+using System.Reflection;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using ProductAPI.Application;
 using ProductAPI.Infrastructure;
