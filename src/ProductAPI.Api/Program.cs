@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
+using ProductAPI.Application;
 using ProductAPI.Infrastructure;
 using ProductAPI.Infrastructure.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddInfrastructureService(builder.Configuration);
+builder.Services.AddCoreDependencies();
 
 // Add services to the container.
 
