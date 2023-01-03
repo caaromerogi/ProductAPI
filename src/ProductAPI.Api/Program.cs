@@ -1,4 +1,10 @@
+using Microsoft.EntityFrameworkCore;
+using ProductAPI.Infrastructure;
+using ProductAPI.Infrastructure.Context;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddInfrastructureService(builder.Configuration);
 
 // Add services to the container.
 
@@ -8,6 +14,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+
+// Initialise and seed database
+using (var scope = app.Services.CreateScope())
+{
+        var initialiser = scope.ServiceProvider.GetRequiredService<ProductPurchaseContextInitializer>();
+        await initialiser.InitialiseAsync();
+}
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -23,3 +38,8 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+
+
+
