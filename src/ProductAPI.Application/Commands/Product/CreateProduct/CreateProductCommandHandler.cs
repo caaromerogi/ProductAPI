@@ -20,7 +20,7 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
     public async Task<ResponseModel<bool>> Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
         var  productEntity = _mapper.Map<CreateProductCommand, Domain.Models.Product>(request);
-
+        productEntity.IsEnabled = true;
         await _unitOfWork.ProductRepository.AddAsync(productEntity);
         await _unitOfWork.SaveChangesAsync();
         return new ResponseModel<bool>(true, "Product created succesfully");

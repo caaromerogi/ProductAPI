@@ -30,11 +30,11 @@ namespace ProductAPI.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
 
-                    b.Property<bool>("Enabled")
-                        .HasColumnType("bit");
-
                     b.Property<int>("InInventory")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsEnabled")
+                        .HasColumnType("bit");
 
                     b.Property<int>("MaxPurchase")
                         .HasColumnType("int");

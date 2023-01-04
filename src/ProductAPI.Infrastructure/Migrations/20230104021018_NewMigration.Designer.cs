@@ -12,8 +12,8 @@ using ProductAPI.Infrastructure.Context;
 namespace ProductAPI.Infrastructure.Migrations
 {
     [DbContext(typeof(ProductPurchaseContext))]
-    [Migration("20230103211509_Init")]
-    partial class Init
+    [Migration("20230104021018_NewMigration")]
+    partial class NewMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,11 +33,11 @@ namespace ProductAPI.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
 
-                    b.Property<bool>("Enabled")
-                        .HasColumnType("bit");
-
                     b.Property<int>("InInventory")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsEnabled")
+                        .HasColumnType("bit");
 
                     b.Property<int>("MaxPurchase")
                         .HasColumnType("int");
