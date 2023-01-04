@@ -1,3 +1,5 @@
+using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 using ProductAPI.Application.Common.Interfaces;
 using ProductAPI.Domain.Models;
 using ProductAPI.Infrastructure.Context;

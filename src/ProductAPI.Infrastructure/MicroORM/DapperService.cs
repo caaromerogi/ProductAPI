@@ -20,4 +20,11 @@ public class DapperService<T> : IDapperService<T>
         await connection.OpenAsync();
         return await connection.QueryAsync<T>(query, parameters);
     }
+
+    public async Task<IEnumerable<T>> Get(string query)
+    {
+        using var connection = new SqlConnection(_configuration.GetConnectionString("ProductConnection"));
+        await connection.OpenAsync();
+        return await connection.QueryAsync<T>(query);
+    }
 }
