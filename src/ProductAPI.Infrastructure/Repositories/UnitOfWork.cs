@@ -4,15 +4,18 @@ using ProductAPI.Infrastructure.Context;
 
 namespace ProductAPI.Infrastructure.Repositories;
 
-public class unitOfWork : IUnitOfWork
+public class UnitOfWork : IUnitOfWork
 {
     private readonly ProductPurchaseContext _context;
     private readonly IGenericRepository<Product> _productRepository;
     private readonly IGenericRepository<Purchase> _purchaseRepository;
-    public unitOfWork(ProductPurchaseContext context, IGenericRepository<Product> productRepository)
+    public UnitOfWork(ProductPurchaseContext context,
+     IGenericRepository<Product> productRepository,
+     IGenericRepository<Purchase> purchaseRepository)
     {
         _context = context;
         _productRepository = productRepository;
+        _purchaseRepository = purchaseRepository;
     }
 
     public IGenericRepository<Product> ProductRepository => _productRepository ?? new GenericRepository<Product>(_context);

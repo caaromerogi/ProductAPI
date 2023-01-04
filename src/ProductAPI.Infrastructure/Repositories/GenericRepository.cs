@@ -23,9 +23,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         throw new NotImplementedException();
     }
 
-    public IEnumerable<T> GetAll()
+    public async Task<IEnumerable<T>> GetAll()
     {
-        throw new NotImplementedException();
+        return await _entities.ToListAsync();
     }
 
     public async Task<T> GetByIdAsync(int id)

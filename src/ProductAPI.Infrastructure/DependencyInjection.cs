@@ -17,7 +17,7 @@ public static class DependencyInjection
         builder => builder.MigrationsAssembly(typeof(ProductPurchaseContext).Assembly.FullName)));
         
         services.AddScoped<ProductPurchaseContextInitializer>();
-        services.AddTransient<IUnitOfWork, unitOfWork>();
+        services.AddTransient<IUnitOfWork, UnitOfWork>();
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
         return services;

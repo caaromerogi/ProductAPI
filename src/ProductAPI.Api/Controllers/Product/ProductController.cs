@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using ProductAPI.Application.Commands.Product.CreateProduct;
 using ProductAPI.Application.Commands.Product.DeleteProduct;
 using ProductAPI.Application.Commands.Product.UpdateProduct;
+using ProductAPI.Application.Queries.Product.GetPaginatedProduct;
 
 namespace ProductAPI.Api.Controllers.Product;
 [Route("[controller]")]
@@ -14,6 +15,13 @@ public class ProductController : ControllerBase
     public ProductController(IMediator mediator)
     {
         _mediator = mediator;
+    }
+
+    [HttpGet("GetPostsPagination")]
+    public async Task<IActionResult> GetPaginatedResult([FromQuery] GetPaginatedProductQuery query)
+    {
+        var response = await _mediator.Send(query);
+        return Ok(response);
     }
 
     [HttpPost("AddProduct")]
