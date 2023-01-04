@@ -6,7 +6,7 @@ using ProductAPI.Application.Common.Models;
 
 namespace ProductAPI.Application.Commands.Product.CreateProduct;
 
-public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, ResponseModel<bool>>   
+public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, ResponseModel>   
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
@@ -17,12 +17,12 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
         _mapper = mapper;
     }
 
-    public async Task<ResponseModel<bool>> Handle(CreateProductCommand request, CancellationToken cancellationToken)
+    public async Task<ResponseModel> Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
         var  productEntity = _mapper.Map<CreateProductCommand, Domain.Models.Product>(request);
         productEntity.IsEnabled = true;
         await _unitOfWork.ProductRepository.AddAsync(productEntity);
         await _unitOfWork.SaveChangesAsync();
-        return new ResponseModel<bool>(true, "Product created succesfully");
+        return new ResponseModel("Product created succesfully");
     }
 }

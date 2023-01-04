@@ -9,4 +9,5 @@ public class Product
     public int MinPurchase { get; set; }
     public int MaxPurchase { get; set; }
     public ICollection<Purchase> Purchases{get;set;}
+    public ICollection<ProductPurchase> ProductPurchases { get; set; }
 }

@@ -3,7 +3,7 @@ using ProductAPI.Application.Common.Models;
 
 namespace ProductAPI.Application.Commands.Product.UpdateProduct;
 
-public class UpdateProductCommand : IRequest<ResponseModel<bool>>
+public class UpdateProductCommand : IRequest<ResponseModel>
 {
     public int ProductId { get; set; }
     public string ProductName { get; set; }

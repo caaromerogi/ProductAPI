@@ -6,7 +6,7 @@ using ProductAPI.Domain.Exceptions.Implementation;
 
 namespace ProductAPI.Application.Commands.Product.UpdateProduct;
 
-public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, ResponseModel<bool>>
+public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, ResponseModel>
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
@@ -17,7 +17,7 @@ public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand,
         _mapper = mapper;
     }
 
-    public async Task<ResponseModel<bool>> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
+    public async Task<ResponseModel> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
     { 
         var productEntity = await _unitOfWork.ProductRepository.GetByIdAsync(request.ProductId);
         
@@ -32,6 +32,6 @@ public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand,
 
         await _unitOfWork.SaveChangesAsync();
 
-        return new ResponseModel<bool>(true, "Product successfully updated");
+        return new ResponseModel("Product successfully updated");
     }
 }

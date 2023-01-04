@@ -8,4 +8,5 @@ public class Purchase
     public string IdNumber { get; set; }
     public string ClientName{ get; set; }
     public ICollection<Product> Products {get;set;} 
+    public ICollection<ProductPurchase> ProductPurchases { get; set; }
 }

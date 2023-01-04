@@ -3,7 +3,7 @@ using ProductAPI.Application.Common.Models;
 
 namespace ProductAPI.Application.Commands.Purchase.CreatePurchase;
 
-public class CreatePurchaseCommand : IRequest<ResponseModel<bool>>
+public class CreatePurchaseCommand : IRequest<ResponseModel>
 {   
     public string IdType { get; set; }
     public string IdNumber { get; set; }

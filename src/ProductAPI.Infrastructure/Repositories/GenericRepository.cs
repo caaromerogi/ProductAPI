@@ -61,9 +61,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
             }
     }
 
-    public async Task<T> GetByIdAsync(int id)
+    public async Task<T> GetByIdAsync(params object[] keys)
     {
-        return await _entities.FindAsync(id);
+        return await _entities.FindAsync(keys);
     }
 
     public void Update(T entity)

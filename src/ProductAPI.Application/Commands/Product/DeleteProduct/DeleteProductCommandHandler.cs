@@ -6,7 +6,7 @@ using ProductAPI.Domain.Exceptions.Implementation;
 
 namespace ProductAPI.Application.Commands.Product.DeleteProduct;
 
-public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand, ResponseModel<bool>>
+public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand, ResponseModel>
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
@@ -16,7 +16,7 @@ public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand,
         _unitOfWork = unitOfWork;
         _mapper = mapper;
     }
-    public async Task<ResponseModel<bool>> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
+    public async Task<ResponseModel> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
     {
         var productEntity = await _unitOfWork.ProductRepository.GetByIdAsync(request.ProductId);
         if (productEntity is null){
@@ -25,7 +25,7 @@ public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand,
         productEntity.IsEnabled = false;
         await _unitOfWork.SaveChangesAsync();
 
-        return new ResponseModel<bool>(true, "The product was removed");
+        return new ResponseModel("The product was removed");
 
     }
 }

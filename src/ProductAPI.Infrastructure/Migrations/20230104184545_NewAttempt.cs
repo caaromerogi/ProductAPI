@@ -45,40 +45,41 @@ namespace ProductAPI.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Product_Purchase",
+                name: "ProductPurchase",
                 columns: table => new
                 {
-                    ProductsProductId = table.Column<int>(type: "int", nullable: false),
-                    PurchasesPurchaseId = table.Column<int>(type: "int", nullable: false)
+                    ProductId = table.Column<int>(type: "int", nullable: false),
+                    PurchaseId = table.Column<int>(type: "int", nullable: false),
+                    Quantity = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Product_Purchase", x => new { x.ProductsProductId, x.PurchasesPurchaseId });
+                    table.PrimaryKey("PK_ProductPurchase", x => new { x.ProductId, x.PurchaseId });
                     table.ForeignKey(
-                        name: "FK_Product_Purchase_Product_ProductsProductId",
-                        column: x => x.ProductsProductId,
+                        name: "FK_ProductPurchase_Product_ProductId",
+                        column: x => x.ProductId,
                         principalTable: "Product",
                         principalColumn: "ProductId",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Product_Purchase_Purchase_PurchasesPurchaseId",
-                        column: x => x.PurchasesPurchaseId,
+                        name: "FK_ProductPurchase_Purchase_PurchaseId",
+                        column: x => x.PurchaseId,
                         principalTable: "Purchase",
                         principalColumn: "PurchaseId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Product_Purchase_PurchasesPurchaseId",
-                table: "Product_Purchase",
-                column: "PurchasesPurchaseId");
+                name: "IX_ProductPurchase_PurchaseId",
+                table: "ProductPurchase",
+                column: "PurchaseId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Product_Purchase");
+                name: "ProductPurchase");
 
             migrationBuilder.DropTable(
                 name: "Product");

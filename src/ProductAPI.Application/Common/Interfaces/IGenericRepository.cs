@@ -8,7 +8,7 @@ public interface IGenericRepository<T> where T : class
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             string includeProperties = "",
             int first = 0, int offset = 0);
-    Task<T> GetByIdAsync(int id);
+    Task<T> GetByIdAsync(params object[] keys);
     Task AddAsync(T entity);
     void Update(T entity);
     Task Delete(int id);

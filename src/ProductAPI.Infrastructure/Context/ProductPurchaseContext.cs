@@ -28,7 +28,16 @@ public class ProductPurchaseContext : DbContext
         modelBuilder.Entity<Product>()
         .HasMany(p => p.Purchases)
         .WithMany(p => p.Products)
-        .UsingEntity(pp => pp.ToTable("Product_Purchase"));
+        .UsingEntity<ProductPurchase>(pp => {
+            pp.HasOne(pp=> pp.Product)
+            .WithMany(p => p.ProductPurchases)
+            .HasForeignKey(pp => pp.ProductId);
+            pp.HasOne(pp => pp.Purchase)
+            .WithMany(p => p.ProductPurchases)
+            .HasForeignKey(pp => pp.PurchaseId);
+            pp.HasKey( k => new {k.ProductId, k.PurchaseId});
+        }
+        );
    
 
         /*
