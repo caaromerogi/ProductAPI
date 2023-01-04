@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "e389ad93-1576-4cba-8d4f-eb6a0b4af9ce",
+		"name": "ProductAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "GetProductById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/Product/GetProductById?ProductId=1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Product",
+								"GetProductById"
+							],
+							"query": [
+								{
+									"key": "ProductId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllProducts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/Product/GetProductsPagination?PageNumber=1&PageSize=50",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Product",
+								"GetProductsPagination"
+							],
+							"query": [
+								{
+									"key": "PageNumber",
+									"value": "1"
+								},
+								{
+									"key": "PageSize",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"productName\": \"Product 1\",\r\n  \"inInventory\": 100,\r\n  \"minPurchase\": 5,\r\n  \"maxPurchase\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/Product/AddProduct",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Product",
+								"AddProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteProduct",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"productId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/Product/DeleteProduct",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Product",
+								"DeleteProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateProduct",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"productId\": 2,\r\n  \"productName\": \"ProductUpdated\",\r\n  \"inInventory\": 500,\r\n  \"minPurchase\": 20,\r\n  \"maxPurchase\": 50\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/Product/EditProduct",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Product",
+								"EditProduct"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Purchase",
+			"item": [
+				{
+					"name": "GetAllPurchases",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/Purchase/GetPurchases",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Purchase",
+								"GetPurchases"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddPurchase",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idType\": \"CC\",\r\n  \"idNumber\": \"103584151\",\r\n  \"clientName\": \"Carlos\",\r\n  \"products\": [\r\n    {\r\n      \"productId\": 2,\r\n      \"quantity\": 10\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/Purchase/CreatePurchaseOrder",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Purchase",
+								"CreatePurchaseOrder"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
