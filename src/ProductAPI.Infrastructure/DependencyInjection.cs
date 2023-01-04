@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ProductAPI.Application.Common.Interfaces;
 using ProductAPI.Infrastructure.Context;
+using ProductAPI.Infrastructure.MicroORM;
 using ProductAPI.Infrastructure.Repositories;
 
 namespace ProductAPI.Infrastructure;
@@ -19,7 +20,7 @@ public static class DependencyInjection
         services.AddScoped<ProductPurchaseContextInitializer>();
         services.AddTransient<IUnitOfWork, UnitOfWork>();
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-
+        services.AddScoped(typeof(IDapperService<>), typeof(DapperService<>));
         return services;
     }
 }

@@ -4,6 +4,7 @@ using ProductAPI.Application.Commands.Product.CreateProduct;
 using ProductAPI.Application.Commands.Product.DeleteProduct;
 using ProductAPI.Application.Commands.Product.UpdateProduct;
 using ProductAPI.Application.Queries.Product.GetPaginatedProduct;
+using ProductAPI.Application.Queries.Product.GetProductById;
 
 namespace ProductAPI.Api.Controllers.Product;
 [Route("[controller]")]
@@ -17,8 +18,15 @@ public class ProductController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpGet("GetPostsPagination")]
+    [HttpGet("GetProductsPagination")]
     public async Task<IActionResult> GetPaginatedResult([FromQuery] GetPaginatedProductQuery query)
+    {
+        var response = await _mediator.Send(query);
+        return Ok(response);
+    }
+
+    [HttpGet("GetProductById")]
+    public async Task<IActionResult> GetProductById([FromQuery] GetProductByIdQuery query)
     {
         var response = await _mediator.Send(query);
         return Ok(response);
