@@ -53,6 +53,7 @@ public class CreatePurchaseCommandHandler : IRequestHandler<CreatePurchaseComman
             editPurchase.Quantity = prdd.Quantity;
             
         }
+        await _unitOfWork.SaveChangesAsync();
         
 
         return new ResponseModel("Purchase successfully added");

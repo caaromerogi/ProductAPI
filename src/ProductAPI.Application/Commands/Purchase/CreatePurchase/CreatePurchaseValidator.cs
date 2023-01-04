@@ -14,23 +14,26 @@ public class CreatePurchaseValidator : AbstractValidator<CreatePurchaseCommand>
         RuleFor(p => p.IdNumber).NotEmpty();
         RuleFor(p => p.IdType).NotEmpty();
         RuleForEach(p => p.Products)
-        .MustAsync((p, t)  => ValidateMin(p, _unitOfWork));
+        .MustAsync( async (p,pm, c, t)  =>{
+            var prd = await _unitOfWork.ProductRepository.GetByIdAsync(pm.ProductId);
+            c.MessageFormatter.AppendArgument("MinElements", prd.MinPurchase);
+            return pm.Quantity>=prd.MinPurchase;
+        }).WithMessage("The minimun purchase for this product is {MinElements} items");
 
         RuleForEach(p=> p.Products)
-        .MustAsync((p, t)  => ValidateMax(p, _unitOfWork));
+        .MustAsync(async (p,pm,c, t)  => {
+            var prd = await _unitOfWork.ProductRepository.GetByIdAsync(pm.ProductId);
+            c.MessageFormatter.AppendArgument("MaxElements", prd.MaxPurchase);  
+            return pm.Quantity<=prd.MaxPurchase;
+        }).WithMessage("The maximun purchase for this product is {MaxElements} items");
+
+        RuleForEach(p => p.Products)
+        .MustAsync(async (p, pm,c, t) => {
+            var prd = await _unitOfWork.ProductRepository.GetByIdAsync(pm.ProductId);
+            c.MessageFormatter.AppendArgument("ItemsAvailable", prd.InInventory);  
+            return pm.Quantity>=prd.InInventory;
+        }).WithMessage("There are only {ItemsAvailable} items available");
         
-    }
-
-    private async Task<bool> ValidateMin(ProductPurchaseModel productModel, IUnitOfWork unitOfWork)
-    {
-        var p = await unitOfWork.ProductRepository.GetByIdAsync(productModel.ProductId);
-        return productModel.Quantity>p.MinPurchase;
-    }
-
-    private async Task<bool> ValidateMax(ProductPurchaseModel productModel, IUnitOfWork unitOfWork)
-    {
-        var p = await unitOfWork.ProductRepository.GetByIdAsync(productModel.ProductId);
-        return productModel.Quantity<p.MaxPurchase;
     }
     
 }
