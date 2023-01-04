@@ -10,6 +10,9 @@ public class CreatePurchaseValidator : AbstractValidator<CreatePurchaseCommand>
     public CreatePurchaseValidator(IUnitOfWork unitOfWork)
     {
         _unitOfWork = unitOfWork;
+        RuleFor(p => p.ClientName).NotEmpty();
+        RuleFor(p => p.IdNumber).NotEmpty();
+        RuleFor(p => p.IdType).NotEmpty();
         RuleForEach(p => p.Products)
         .MustAsync((p, t)  => ValidateMin(p, _unitOfWork));
 

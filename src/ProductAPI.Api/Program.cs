@@ -1,6 +1,7 @@
 using System.Reflection;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using ProductAPI.Api.Middleware;
 using ProductAPI.Application;
 using ProductAPI.Infrastructure;
 using ProductAPI.Infrastructure.Context;
@@ -18,6 +19,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+app.UseMiddleware<ErrorHandlerMiddleware>();
 
 
 // Initialise and seed database
