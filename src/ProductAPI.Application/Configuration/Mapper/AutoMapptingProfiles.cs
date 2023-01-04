@@ -1,5 +1,6 @@
 using AutoMapper;
 using ProductAPI.Application.Commands.Product.CreateProduct;
+using ProductAPI.Application.Commands.Purchase.CreatePurchase;
 using ProductAPI.Application.Queries.Product.GetPaginatedProduct;
 using ProductAPI.Domain.Models;
 
@@ -11,5 +12,6 @@ public class AutoMappingProfiles : Profile
     {
         CreateMap<CreateProductCommand, Product>().ReverseMap();
         CreateMap<ProductDTO, Product>().ReverseMap();
+        CreateMap<CreatePurchaseCommand, Purchase>().ReverseMap();
     }
 }
