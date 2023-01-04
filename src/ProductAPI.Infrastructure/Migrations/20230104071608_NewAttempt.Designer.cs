@@ -12,8 +12,8 @@ using ProductAPI.Infrastructure.Context;
 namespace ProductAPI.Infrastructure.Migrations
 {
     [DbContext(typeof(ProductPurchaseContext))]
-    [Migration("20230104021018_NewMigration")]
-    partial class NewMigration
+    [Migration("20230104071608_NewAttempt")]
+    partial class NewAttempt
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,21 +54,6 @@ namespace ProductAPI.Infrastructure.Migrations
                     b.ToTable("Product", (string)null);
                 });
 
-            modelBuilder.Entity("ProductAPI.Domain.Models.ProductPurchase", b =>
-                {
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PurchaseId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ProductId", "PurchaseId");
-
-                    b.HasIndex("PurchaseId");
-
-                    b.ToTable("ProductPurchases");
-                });
-
             modelBuilder.Entity("ProductAPI.Domain.Models.Purchase", b =>
                 {
                     b.Property<int>("PurchaseId")
@@ -97,33 +82,34 @@ namespace ProductAPI.Infrastructure.Migrations
                     b.ToTable("Purchase", (string)null);
                 });
 
-            modelBuilder.Entity("ProductAPI.Domain.Models.ProductPurchase", b =>
+            modelBuilder.Entity("ProductPurchase", b =>
                 {
-                    b.HasOne("ProductAPI.Domain.Models.Product", "Product")
-                        .WithMany("ProductPurchases")
-                        .HasForeignKey("ProductId")
+                    b.Property<int>("ProductsProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PurchasesPurchaseId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductsProductId", "PurchasesPurchaseId");
+
+                    b.HasIndex("PurchasesPurchaseId");
+
+                    b.ToTable("Product_Purchase", (string)null);
+                });
+
+            modelBuilder.Entity("ProductPurchase", b =>
+                {
+                    b.HasOne("ProductAPI.Domain.Models.Product", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ProductAPI.Domain.Models.Purchase", "Purchase")
-                        .WithMany("ProductPurchases")
-                        .HasForeignKey("PurchaseId")
+                    b.HasOne("ProductAPI.Domain.Models.Purchase", null)
+                        .WithMany()
+                        .HasForeignKey("PurchasesPurchaseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Product");
-
-                    b.Navigation("Purchase");
-                });
-
-            modelBuilder.Entity("ProductAPI.Domain.Models.Product", b =>
-                {
-                    b.Navigation("ProductPurchases");
-                });
-
-            modelBuilder.Entity("ProductAPI.Domain.Models.Purchase", b =>
-                {
-                    b.Navigation("ProductPurchases");
                 });
 #pragma warning restore 612, 618
         }

@@ -15,7 +15,6 @@ public class ProductPurchaseContext : DbContext
 
     public DbSet<Product> Products {get; set;}
     public DbSet<Purchase> Purchases {get; set;}
-    public DbSet<ProductPurchase> ProductPurchases {get; set;}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -23,6 +22,16 @@ public class ProductPurchaseContext : DbContext
         modelBuilder.Entity<Product>().ToTable("Product");
         modelBuilder.Entity<Purchase>().ToTable("Purchase");
 
+        modelBuilder.Entity<Product>().HasKey(p => p.ProductId);
+        modelBuilder.Entity<Purchase>().HasKey(p => p.PurchaseId);
+
+        modelBuilder.Entity<Product>()
+        .HasMany(p => p.Purchases)
+        .WithMany(p => p.Products)
+        .UsingEntity(pp => pp.ToTable("Product_Purchase"));
+   
+
+        /*
         modelBuilder.Entity<Product>().HasKey(p => p.ProductId);
         modelBuilder.Entity<Purchase>().HasKey(p => p.PurchaseId);
 
@@ -37,7 +46,7 @@ public class ProductPurchaseContext : DbContext
         .HasOne(pp =>pp.Purchase)
         .WithMany(p => p.ProductPurchases)
         .HasForeignKey(pp => pp.PurchaseId);
-        
+        */
     }
 
     

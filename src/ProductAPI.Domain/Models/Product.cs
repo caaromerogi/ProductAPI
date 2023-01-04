@@ -8,5 +8,5 @@ public class Product
     public bool IsEnabled { get; set; }
     public int MinPurchase { get; set; }
     public int MaxPurchase { get; set; }
-    public ICollection<ProductPurchase> ProductPurchases{get;set;}
+    public ICollection<Purchase> Purchases{get;set;}
 }
