@@ -31,7 +31,7 @@ public class CreatePurchaseValidator : AbstractValidator<CreatePurchaseCommand>
         .MustAsync(async (p, pm,c, t) => {
             var prd = await _unitOfWork.ProductRepository.GetByIdAsync(pm.ProductId);
             c.MessageFormatter.AppendArgument("ItemsAvailable", prd.InInventory);  
-            return pm.Quantity>=prd.InInventory;
+            return pm.Quantity<=prd.InInventory;
         }).WithMessage("There are only {ItemsAvailable} items available");
         
     }

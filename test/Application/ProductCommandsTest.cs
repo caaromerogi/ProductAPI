@@ -24,10 +24,21 @@ public class ProductCommandsTest
     [Fact]
     public async Task CreateProductCommandHandlerTest()
     {
+        var r = new Mock<IGenericRepository<Product>>();
         var command = new CreateProductCommand();
+        var t = new CancellationTokenSource();
+        command.InInventory = 100;
+        command.ProductName = "P1";
+        command.MaxPurchase = 5;
+        command.MinPurchase = 1;
+
+        unitOfWork.Setup(_ => _.ProductRepository).Returns(r.Object);
+        r.Setup(_ => _.AddAsync(It.IsAny<Product>())).Returns(Task.FromResult(mapper.Map<CreateProductCommand, Product>(command)));
+
         var commandHandler = new CreateProductCommandHandler(unitOfWork.Object, mapper);
-        await commandHandler.Handle(command, It.IsAny<CancellationToken>());
+        var result = await commandHandler.Handle(command, t.Token);
         unitOfWork.Verify(_ => _.ProductRepository.AddAsync(It.IsAny<Product>()));
         unitOfWork.Verify(_ => _.SaveChangesAsync());
+
     }
 }
