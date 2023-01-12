@@ -1,0 +1,2175 @@
+{
+  "ProductAPI.Api.dll": {
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Api\\Program.cs": {
+      "Program/<<Main>$>d__0": {
+        "System.Void Program/<<Main>$>d__0::MoveNext()": {
+          "Lines": {
+            "9": 0,
+            "11": 0,
+            "12": 0,
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 427,
+              "EndOffset": 429,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 427,
+              "EndOffset": 457,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Api\\Middleware\\ErrorHandlerMiddleware.cs": {
+      "ProductAPI.Api.Middleware.ErrorHandlerMiddleware": {
+        "System.Void ProductAPI.Api.Middleware.ErrorHandlerMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Api.Middleware.ErrorHandlerMiddleware/<Invoke>d__2": {
+        "System.Void ProductAPI.Api.Middleware.ErrorHandlerMiddleware/<Invoke>d__2::MoveNext()": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 285,
+              "EndOffset": 287,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 285,
+              "EndOffset": 320,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 310,
+              "EndOffset": 543,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 694,
+              "EndOffset": 623,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 694,
+              "EndOffset": 696,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 310,
+              "EndOffset": 915,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Api\\Controllers\\Purchase\\PurchaseController.cs": {
+      "ProductAPI.Api.Controllers.Purchase.PurchaseController": {
+        "System.Void ProductAPI.Api.Controllers.Purchase.PurchaseController::.ctor(MediatR.IMediator)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Api.Controllers.Purchase.PurchaseController/<Create>d__2": {
+        "System.Void ProductAPI.Api.Controllers.Purchase.PurchaseController/<Create>d__2::MoveNext()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Api.Controllers.Purchase.PurchaseController/<Get>d__3": {
+        "System.Void ProductAPI.Api.Controllers.Purchase.PurchaseController/<Get>d__3::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Api\\Controllers\\Product\\ProductController.cs": {
+      "ProductAPI.Api.Controllers.Product.ProductController": {
+        "System.Void ProductAPI.Api.Controllers.Product.ProductController::.ctor(MediatR.IMediator)": {
+          "Lines": {
+            "16": 8,
+            "17": 8,
+            "18": 8,
+            "19": 8
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Api.Controllers.Product.ProductController/<Add>d__4": {
+        "System.Void ProductAPI.Api.Controllers.Product.ProductController/<Add>d__4::MoveNext()": {
+          "Lines": {
+            "37": 2,
+            "38": 2,
+            "40": 2,
+            "41": 2
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Api.Controllers.Product.ProductController/<Delete>d__6": {
+        "System.Void ProductAPI.Api.Controllers.Product.ProductController/<Delete>d__6::MoveNext()": {
+          "Lines": {
+            "53": 2,
+            "54": 2,
+            "56": 2,
+            "57": 2
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Api.Controllers.Product.ProductController/<GetPaginatedResult>d__2": {
+        "System.Void ProductAPI.Api.Controllers.Product.ProductController/<GetPaginatedResult>d__2::MoveNext()": {
+          "Lines": {
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Api.Controllers.Product.ProductController/<GetProductById>d__3": {
+        "System.Void ProductAPI.Api.Controllers.Product.ProductController/<GetProductById>d__3::MoveNext()": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Api.Controllers.Product.ProductController/<Update>d__5": {
+        "System.Void ProductAPI.Api.Controllers.Product.ProductController/<Update>d__5::MoveNext()": {
+          "Lines": {
+            "45": 2,
+            "46": 2,
+            "48": 2,
+            "49": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "ProductAPI.Application.dll": {
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\DependencyInjection.cs": {
+      "ProductAPI.Application.DependencyInjection": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection ProductAPI.Application.DependencyInjection::AddCoreDependencies(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Queries\\Purchase\\ProductPurchaseDTO.cs": {
+      "ProductAPI.Application.Queries.Purchase.ProductPurchaseDTO": {
+        "System.Int32 ProductAPI.Application.Queries.Purchase.ProductPurchaseDTO::get_ProductId()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Application.Queries.Purchase.ProductPurchaseDTO::get_ProductName()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Queries.Purchase.ProductPurchaseDTO::get_Quantity()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Queries\\Purchase\\PurchaseDTO.cs": {
+      "ProductAPI.Application.Queries.Purchase.PurchaseDTO": {
+        "System.Int32 ProductAPI.Application.Queries.Purchase.PurchaseDTO::get_PurchaseId()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime ProductAPI.Application.Queries.Purchase.PurchaseDTO::get_Date()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Application.Queries.Purchase.PurchaseDTO::get_IdType()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Application.Queries.Purchase.PurchaseDTO::get_IdNumber()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Application.Queries.Purchase.PurchaseDTO::get_ClientName()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<ProductAPI.Application.Queries.Purchase.ProductPurchaseDTO> ProductAPI.Application.Queries.Purchase.PurchaseDTO::get_Products()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Queries\\Purchase\\GetPurchase\\GetPurchaseQueryHandler.cs": {
+      "ProductAPI.Application.Queries.Purchase.GetPurchase.GetPurchaseQueryHandler": {
+        "System.Void ProductAPI.Application.Queries.Purchase.GetPurchase.GetPurchaseQueryHandler::.ctor(ProductAPI.Application.Common.Interfaces.IUnitOfWork,AutoMapper.IMapper)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Queries.Purchase.GetPurchase.GetPurchaseQueryHandler/<Handle>d__3": {
+        "System.Void ProductAPI.Application.Queries.Purchase.GetPurchase.GetPurchaseQueryHandler/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 713,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 630,
+              "EndOffset": 299,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 630,
+              "EndOffset": 635,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 713,
+              "EndOffset": 718,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Queries\\Product\\GetProductById\\GetProductByIdQuery.cs": {
+      "ProductAPI.Application.Queries.Product.GetProductById.GetProductByIdQuery": {
+        "System.Int32 ProductAPI.Application.Queries.Product.GetProductById.GetProductByIdQuery::get_ProductId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Queries\\Product\\GetProductById\\GetProductByIdQueryHandler.cs": {
+      "ProductAPI.Application.Queries.Product.GetProductById.GetProductByIdQueryHandler": {
+        "System.Void ProductAPI.Application.Queries.Product.GetProductById.GetProductByIdQueryHandler::.ctor(ProductAPI.Application.Common.Interfaces.IDapperService`1<ProductAPI.Domain.Models.Product>,AutoMapper.IMapper)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Queries.Product.GetProductById.GetProductByIdQueryHandler/<Handle>d__3": {
+        "System.Void ProductAPI.Application.Queries.Product.GetProductById.GetProductByIdQueryHandler/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "33": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 245,
+              "EndOffset": 247,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 245,
+              "EndOffset": 317,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Queries\\Product\\GetPaginatedProduct\\GetPaginatedProductQuery.cs": {
+      "ProductAPI.Application.Queries.Product.GetPaginatedProduct.GetPaginatedProductQuery": {
+        "System.Int32 ProductAPI.Application.Queries.Product.GetPaginatedProduct.GetPaginatedProductQuery::get_PageNumber()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Queries.Product.GetPaginatedProduct.GetPaginatedProductQuery::get_PageSize()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Queries\\Product\\GetPaginatedProduct\\GetPaginatedProductQueryHandler.cs": {
+      "ProductAPI.Application.Queries.Product.GetPaginatedProduct.GetPaginatedProductQueryHandler": {
+        "System.Void ProductAPI.Application.Queries.Product.GetPaginatedProduct.GetPaginatedProductQueryHandler::.ctor(ProductAPI.Application.Common.Interfaces.IUnitOfWork,AutoMapper.IMapper)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Queries.Product.GetPaginatedProduct.GetPaginatedProductQueryHandler/<>c": {
+        "System.Boolean ProductAPI.Application.Queries.Product.GetPaginatedProduct.GetPaginatedProductQueryHandler/<>c::<Handle>b__3_0(ProductAPI.Domain.Models.Product)": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Queries.Product.GetPaginatedProduct.GetPaginatedProductQueryHandler/<Handle>d__3": {
+        "System.Void ProductAPI.Application.Queries.Product.GetPaginatedProduct.GetPaginatedProductQueryHandler/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Queries\\Product\\GetPaginatedProduct\\ProductDTO.cs": {
+      "ProductAPI.Application.Queries.Product.GetPaginatedProduct.ProductDTO": {
+        "System.Int32 ProductAPI.Application.Queries.Product.GetPaginatedProduct.ProductDTO::get_ProductId()": {
+          "Lines": {
+            "5": 14
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Application.Queries.Product.GetPaginatedProduct.ProductDTO::get_ProductName()": {
+          "Lines": {
+            "6": 15
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Queries.Product.GetPaginatedProduct.ProductDTO::get_InInventory()": {
+          "Lines": {
+            "7": 14
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Queries.Product.GetPaginatedProduct.ProductDTO::get_MaxPurchase()": {
+          "Lines": {
+            "8": 14
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Queries.Product.GetPaginatedProduct.ProductDTO::get_MinPurchase()": {
+          "Lines": {
+            "9": 14
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Configuration\\Validation\\ValidationBehaviour.cs": {
+      "ProductAPI.Application.Configuration.Validation.ValidationBehaviour`2": {
+        "System.Void ProductAPI.Application.Configuration.Validation.ValidationBehaviour`2::.ctor(System.Collections.Generic.IEnumerable`1<FluentValidation.IValidator`1<TRequest>>)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Configuration.Validation.ValidationBehaviour`2/<>c": {
+        "System.Boolean ProductAPI.Application.Configuration.Validation.ValidationBehaviour`2/<>c::<Handle>b__2_0(FluentValidation.Results.ValidationResult)": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<FluentValidation.Results.ValidationFailure> ProductAPI.Application.Configuration.Validation.ValidationBehaviour`2/<>c::<Handle>b__2_1(FluentValidation.Results.ValidationResult)": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Configuration.Validation.ValidationBehaviour`2/<>c__DisplayClass2_1": {
+        "System.Threading.Tasks.Task`1<FluentValidation.Results.ValidationResult> ProductAPI.Application.Configuration.Validation.ValidationBehaviour`2/<>c__DisplayClass2_1::<Handle>b__2(FluentValidation.IValidator`1<TRequest>)": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Configuration.Validation.ValidationBehaviour`2/<Handle>d__2": {
+        "System.Void ProductAPI.Application.Configuration.Validation.ValidationBehaviour`2/<Handle>d__2::MoveNext()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "26": 0,
+            "29": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 75,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 297,
+              "EndOffset": 299,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 297,
+              "EndOffset": 322,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 333,
+              "EndOffset": 335,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 333,
+              "EndOffset": 358,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 388,
+              "EndOffset": 390,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 388,
+              "EndOffset": 407,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 75,
+              "EndOffset": 429,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Configuration\\Mapper\\AutoMapptingProfiles.cs": {
+      "ProductAPI.Application.Configuration.Mapper.AutoMappingProfiles": {
+        "System.Void ProductAPI.Application.Configuration.Mapper.AutoMappingProfiles::.ctor()": {
+          "Lines": {
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Common\\Models\\PaginationList.cs": {
+      "ProductAPI.Application.Common.Models.PaginationList`1": {
+        "System.Collections.Generic.List`1<T> ProductAPI.Application.Common.Models.PaginationList`1::get_Elements()": {
+          "Lines": {
+            "5": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Common.Models.PaginationList`1::get_PageNumber()": {
+          "Lines": {
+            "6": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Common.Models.PaginationList`1::get_TotalPages()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Common.Models.PaginationList`1::get_TotalCount()": {
+          "Lines": {
+            "8": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean ProductAPI.Application.Common.Models.PaginationList`1::get_HasPreviousPage()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean ProductAPI.Application.Common.Models.PaginationList`1::get_HasNextPage()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "ProductAPI.Application.Common.Models.PaginationList`1<T> ProductAPI.Application.Common.Models.PaginationList`1::Create(System.Linq.IQueryable`1<T>,System.Int32,System.Int32)": {
+          "Lines": {
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "28": 2,
+            "29": 2
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Application.Common.Models.PaginationList`1::.ctor(System.Collections.Generic.List`1<T>,System.Int32,System.Int32,System.Int32)": {
+          "Lines": {
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 2,
+            "15": 2,
+            "17": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Common\\Models\\ResponseModel.cs": {
+      "ProductAPI.Application.Common.Models.ResponseModel": {
+        "System.String ProductAPI.Application.Common.Models.ResponseModel::get_Message()": {
+          "Lines": {
+            "6": 13
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Application.Common.Models.ResponseModel::.ctor(System.String)": {
+          "Lines": {
+            "8": 8,
+            "9": 8,
+            "10": 8,
+            "11": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Purchase\\CreatePurchase\\CreatePurchaseCommand.cs": {
+      "ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommand": {
+        "System.String ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommand::get_IdType()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommand::get_IdNumber()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommand::get_ClientName()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<ProductAPI.Application.Commands.Purchase.CreatePurchase.ProductPurchaseModel> ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommand::get_Products()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Purchase\\CreatePurchase\\CreatePurchaseCommandHandler.cs": {
+      "ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommandHandler": {
+        "System.Void ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommandHandler::.ctor(ProductAPI.Application.Common.Interfaces.IUnitOfWork,AutoMapper.IMapper)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommandHandler/<>c__DisplayClass3_0": {
+        "System.Boolean ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommandHandler/<>c__DisplayClass3_0::<Handle>b__0(ProductAPI.Application.Commands.Purchase.CreatePurchase.ProductPurchaseModel)": {
+          "Lines": {
+            "52": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommandHandler/<Handle>d__3": {
+        "System.Void ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseCommandHandler/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "45": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 455,
+              "EndOffset": 116,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 455,
+              "EndOffset": 460,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 1194,
+              "EndOffset": 878,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 1194,
+              "EndOffset": 1199,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Purchase\\CreatePurchase\\CreatePurchaseValidator.cs": {
+      "ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseValidator": {
+        "System.Void ProductAPI.Application.Commands.Purchase.CreatePurchase.CreatePurchaseValidator::.ctor(ProductAPI.Application.Common.Interfaces.IUnitOfWork)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Purchase\\CreatePurchase\\ProductPurchaseModel.cs": {
+      "ProductAPI.Application.Commands.Purchase.CreatePurchase.ProductPurchaseModel": {
+        "System.Int32 ProductAPI.Application.Commands.Purchase.CreatePurchase.ProductPurchaseModel::get_ProductId()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Commands.Purchase.CreatePurchase.ProductPurchaseModel::get_Quantity()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Product\\UpdateProduct\\UpdateProductCommand.cs": {
+      "ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductCommand": {
+        "System.Int32 ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductCommand::get_ProductId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductCommand::get_ProductName()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductCommand::get_InInventory()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductCommand::get_MinPurchase()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductCommand::get_MaxPurchase()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Product\\UpdateProduct\\UpdateProductCommandHandler.cs": {
+      "ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductCommandHandler": {
+        "System.Void ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductCommandHandler::.ctor(ProductAPI.Application.Common.Interfaces.IUnitOfWork,AutoMapper.IMapper)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductCommandHandler/<Handle>d__3": {
+        "System.Void ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductCommandHandler/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 199,
+              "EndOffset": 271,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Product\\UpdateProduct\\UpdateProductValidator.cs": {
+      "ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductValidator": {
+        "System.Void ProductAPI.Application.Commands.Product.UpdateProduct.UpdateProductValidator::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Product\\DeleteProduct\\DeleteProductCommand.cs": {
+      "ProductAPI.Application.Commands.Product.DeleteProduct.DeleteProductCommand": {
+        "System.Int32 ProductAPI.Application.Commands.Product.DeleteProduct.DeleteProductCommand::get_ProductId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Product\\DeleteProduct\\DeleteProductCommandHandler.cs": {
+      "ProductAPI.Application.Commands.Product.DeleteProduct.DeleteProductCommandHandler": {
+        "System.Void ProductAPI.Application.Commands.Product.DeleteProduct.DeleteProductCommandHandler::.ctor(ProductAPI.Application.Common.Interfaces.IUnitOfWork,AutoMapper.IMapper)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Commands.Product.DeleteProduct.DeleteProductCommandHandler/<Handle>d__3": {
+        "System.Void ProductAPI.Application.Commands.Product.DeleteProduct.DeleteProductCommandHandler/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "30": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 199,
+              "EndOffset": 271,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Product\\CreateProduct\\CreateProductCommand.cs": {
+      "ProductAPI.Application.Commands.Product.CreateProduct.CreateProductCommand": {
+        "System.String ProductAPI.Application.Commands.Product.CreateProduct.CreateProductCommand::get_ProductName()": {
+          "Lines": {
+            "8": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Commands.Product.CreateProduct.CreateProductCommand::get_InInventory()": {
+          "Lines": {
+            "9": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Commands.Product.CreateProduct.CreateProductCommand::get_MinPurchase()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Application.Commands.Product.CreateProduct.CreateProductCommand::get_MaxPurchase()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Product\\CreateProduct\\CreateProductCommandHandler.cs": {
+      "ProductAPI.Application.Commands.Product.CreateProduct.CreateProductCommandHandler": {
+        "System.Void ProductAPI.Application.Commands.Product.CreateProduct.CreateProductCommandHandler::.ctor(ProductAPI.Application.Common.Interfaces.IUnitOfWork,AutoMapper.IMapper)": {
+          "Lines": {
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Application.Commands.Product.CreateProduct.CreateProductCommandHandler/<Handle>d__3": {
+        "System.Void ProductAPI.Application.Commands.Product.CreateProduct.CreateProductCommandHandler/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Application\\Commands\\Product\\CreateProduct\\CreateProductValidator.cs": {
+      "ProductAPI.Application.Commands.Product.CreateProduct.CreateProductValidator": {
+        "System.Void ProductAPI.Application.Commands.Product.CreateProduct.CreateProductValidator::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "ProductAPI.Domain.dll": {
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Domain\\Models\\Product.cs": {
+      "ProductAPI.Domain.Models.Product": {
+        "System.Int32 ProductAPI.Domain.Models.Product::get_ProductId()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Domain.Models.Product::get_ProductName()": {
+          "Lines": {
+            "6": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Domain.Models.Product::get_InInventory()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean ProductAPI.Domain.Models.Product::get_IsEnabled()": {
+          "Lines": {
+            "8": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Domain.Models.Product::get_MinPurchase()": {
+          "Lines": {
+            "9": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Domain.Models.Product::get_MaxPurchase()": {
+          "Lines": {
+            "10": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<ProductAPI.Domain.Models.Purchase> ProductAPI.Domain.Models.Product::get_Purchases()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<ProductAPI.Domain.Models.ProductPurchase> ProductAPI.Domain.Models.Product::get_ProductPurchases()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Domain\\Models\\ProductPurchase.cs": {
+      "ProductAPI.Domain.Models.ProductPurchase": {
+        "System.Int32 ProductAPI.Domain.Models.ProductPurchase::get_ProductId()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "ProductAPI.Domain.Models.Product ProductAPI.Domain.Models.ProductPurchase::get_Product()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Domain.Models.ProductPurchase::get_PurchaseId()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "ProductAPI.Domain.Models.Purchase ProductAPI.Domain.Models.ProductPurchase::get_Purchase()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 ProductAPI.Domain.Models.ProductPurchase::get_Quantity()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Domain\\Models\\Purchase.cs": {
+      "ProductAPI.Domain.Models.Purchase": {
+        "System.Int32 ProductAPI.Domain.Models.Purchase::get_PurchaseId()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime ProductAPI.Domain.Models.Purchase::get_Date()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Domain.Models.Purchase::get_IdType()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Domain.Models.Purchase::get_IdNumber()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Domain.Models.Purchase::get_ClientName()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<ProductAPI.Domain.Models.Product> ProductAPI.Domain.Models.Purchase::get_Products()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<ProductAPI.Domain.Models.ProductPurchase> ProductAPI.Domain.Models.Purchase::get_ProductPurchases()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Domain\\Exceptions\\Implementation\\ProductNotFoundException.cs": {
+      "ProductAPI.Domain.Exceptions.Implementation.ProductNotFoundException": {
+        "System.Void ProductAPI.Domain.Exceptions.Implementation.ProductNotFoundException::.ctor(System.String,System.Object)": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Domain\\Exceptions\\Abstract\\ExceptionModel.cs": {
+      "ProductAPI.Domain.Exceptions.Abstract.ExceptionModel": {
+        "System.Object ProductAPI.Domain.Exceptions.Abstract.ExceptionModel::get_Errors()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Domain.Exceptions.Abstract.ExceptionModel::.ctor(System.String,System.Object)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Domain\\Error\\ErrorModel.cs": {
+      "ProductAPI.Domain.Error.ErrorModel": {
+        "System.String ProductAPI.Domain.Error.ErrorModel::get_ErrorCode()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String ProductAPI.Domain.Error.ErrorModel::get_Message()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.Dictionary`2<System.String,System.String> ProductAPI.Domain.Error.ErrorModel::get_AdditionalInf()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Domain\\Error\\ErrorModelBuilder.cs": {
+      "ProductAPI.Domain.Error.ErrorModelBuilder": {
+        "ProductAPI.Domain.Error.ErrorModelBuilder ProductAPI.Domain.Error.ErrorModelBuilder::WithErrorCode(System.String)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "ProductAPI.Domain.Error.ErrorModelBuilder ProductAPI.Domain.Error.ErrorModelBuilder::WithMessage(System.String)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "ProductAPI.Domain.Error.ErrorModelBuilder ProductAPI.Domain.Error.ErrorModelBuilder::WithAdditionalInf(System.Collections.Generic.Dictionary`2<System.String,System.String>)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "ProductAPI.Domain.Error.ErrorModel ProductAPI.Domain.Error.ErrorModelBuilder::Build()": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Domain.Error.ErrorModelBuilder::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "ProductAPI.Infrastructure.dll": {
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Infrastructure\\DependencyInjection.cs": {
+      "ProductAPI.Infrastructure.DependencyInjection": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection ProductAPI.Infrastructure.DependencyInjection::AddInfrastructureService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Infrastructure\\Repositories\\GenericRepository.cs": {
+      "ProductAPI.Infrastructure.Repositories.GenericRepository`1": {
+        "System.Threading.Tasks.Task ProductAPI.Infrastructure.Repositories.GenericRepository`1::Delete(System.Int32)": {
+          "Lines": {
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Infrastructure.Repositories.GenericRepository`1::Update(T)": {
+          "Lines": {
+            "70": 0,
+            "71": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Infrastructure.Repositories.GenericRepository`1::.ctor(ProductAPI.Infrastructure.Context.ProductPurchaseContext)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Infrastructure.Repositories.GenericRepository`1/<AddAsync>d__2": {
+        "System.Void ProductAPI.Infrastructure.Repositories.GenericRepository`1/<AddAsync>d__2::MoveNext()": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Infrastructure.Repositories.GenericRepository`1/<GetAll>d__4": {
+        "System.Void ProductAPI.Infrastructure.Repositories.GenericRepository`1/<GetAll>d__4::MoveNext()": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 57,
+              "EndOffset": 59,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 57,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 95,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 135,
+              "EndOffset": 137,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 135,
+              "EndOffset": 162,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 280,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 280,
+              "EndOffset": 282,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 302,
+              "EndOffset": 307,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 302,
+              "EndOffset": 451,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "ProductAPI.Infrastructure.Repositories.GenericRepository`1/<GetByIdAsync>d__5": {
+        "System.Void ProductAPI.Infrastructure.Repositories.GenericRepository`1/<GetByIdAsync>d__5::MoveNext()": {
+          "Lines": {
+            "65": 0,
+            "66": 0,
+            "67": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Infrastructure\\Repositories\\UnitOfWork.cs": {
+      "ProductAPI.Infrastructure.Repositories.UnitOfWork": {
+        "ProductAPI.Application.Common.Interfaces.IGenericRepository`1<ProductAPI.Domain.Models.Product> ProductAPI.Infrastructure.Repositories.UnitOfWork::get_ProductRepository()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 7,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "ProductAPI.Application.Common.Interfaces.IGenericRepository`1<ProductAPI.Domain.Models.Purchase> ProductAPI.Infrastructure.Repositories.UnitOfWork::get_PurchaseRepository()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 7,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "ProductAPI.Application.Common.Interfaces.IGenericRepository`1<ProductAPI.Domain.Models.ProductPurchase> ProductAPI.Infrastructure.Repositories.UnitOfWork::get_ProductPurchaseRepository()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Infrastructure.Repositories.UnitOfWork::Dispose()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 12,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void ProductAPI.Infrastructure.Repositories.UnitOfWork::SaveChanges()": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Infrastructure.Repositories.UnitOfWork::.ctor(ProductAPI.Infrastructure.Context.ProductPurchaseContext,ProductAPI.Application.Common.Interfaces.IGenericRepository`1<ProductAPI.Domain.Models.Product>,ProductAPI.Application.Common.Interfaces.IGenericRepository`1<ProductAPI.Domain.Models.Purchase>,ProductAPI.Application.Common.Interfaces.IGenericRepository`1<ProductAPI.Domain.Models.ProductPurchase>)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Infrastructure.Repositories.UnitOfWork/<SaveChangesAsync>d__13": {
+        "System.Void ProductAPI.Infrastructure.Repositories.UnitOfWork/<SaveChangesAsync>d__13::MoveNext()": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Infrastructure\\Migrations\\20230104184545_NewAttempt.cs": {
+      "ProductAPI.Infrastructure.Migrations.NewAttempt": {
+        "System.Void ProductAPI.Infrastructure.Migrations.NewAttempt::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Infrastructure.Migrations.NewAttempt::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Infrastructure\\Migrations\\20230104184545_NewAttempt.Designer.cs": {
+      "ProductAPI.Infrastructure.Migrations.NewAttempt": {
+        "System.Void ProductAPI.Infrastructure.Migrations.NewAttempt::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "132": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Infrastructure\\Migrations\\ProductPurchaseContextModelSnapshot.cs": {
+      "ProductAPI.Infrastructure.Migrations.ProductPurchaseContextModelSnapshot": {
+        "System.Void ProductAPI.Infrastructure.Migrations.ProductPurchaseContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "129": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Infrastructure\\MicroORM\\DapperService.cs": {
+      "ProductAPI.Infrastructure.MicroORM.DapperService`1": {
+        "System.Void ProductAPI.Infrastructure.MicroORM.DapperService`1::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Infrastructure.MicroORM.DapperService`1/<Get>d__2": {
+        "System.Void ProductAPI.Infrastructure.MicroORM.DapperService`1/<Get>d__2::MoveNext()": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Infrastructure.MicroORM.DapperService`1/<Get>d__3": {
+        "System.Void ProductAPI.Infrastructure.MicroORM.DapperService`1/<Get>d__3::MoveNext()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Infrastructure\\Context\\ProductPurchaseContext.cs": {
+      "ProductAPI.Infrastructure.Context.ProductPurchaseContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<ProductAPI.Domain.Models.Product> ProductAPI.Infrastructure.Context.ProductPurchaseContext::get_Products()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<ProductAPI.Domain.Models.Purchase> ProductAPI.Infrastructure.Context.ProductPurchaseContext::get_Purchases()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Infrastructure.Context.ProductPurchaseContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "59": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Infrastructure.Context.ProductPurchaseContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProductAPI.Infrastructure.Context.ProductPurchaseContext::.ctor()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Carlos.romero\\Desktop\\ChallengeAPI\\ProductAPI\\src\\ProductAPI.Infrastructure\\Context\\ProductPurchaseContextInitializer.cs": {
+      "ProductAPI.Infrastructure.Context.ProductPurchaseContextInitializer": {
+        "System.Void ProductAPI.Infrastructure.Context.ProductPurchaseContextInitializer::.ctor(ProductAPI.Infrastructure.Context.ProductPurchaseContext)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProductAPI.Infrastructure.Context.ProductPurchaseContextInitializer/<InitialiseAsync>d__2": {
+        "System.Void ProductAPI.Infrastructure.Context.ProductPurchaseContextInitializer/<InitialiseAsync>d__2::MoveNext()": {
+          "Lines": {
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 47,
+              "EndOffset": 169,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

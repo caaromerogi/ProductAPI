@@ -1,7 +1,9 @@
 using AutoMapper;
+using FluentAssertions;
 using Moq;
 using ProductAPI.Application.Commands.Product.CreateProduct;
 using ProductAPI.Application.Common.Interfaces;
+using ProductAPI.Application.Common.Models;
 using ProductAPI.Application.Configuration.Mapper;
 using ProductAPI.Domain.Models;
 
@@ -32,6 +34,8 @@ public class ProductCommandsTest
         command.MaxPurchase = 5;
         command.MinPurchase = 1;
 
+        var expectedResult = new ResponseModel("Product created succesfully");
+
         unitOfWork.Setup(_ => _.ProductRepository).Returns(r.Object);
         r.Setup(_ => _.AddAsync(It.IsAny<Product>())).Returns(Task.FromResult(mapper.Map<CreateProductCommand, Product>(command)));
 
@@ -39,6 +43,9 @@ public class ProductCommandsTest
         var result = await commandHandler.Handle(command, t.Token);
         unitOfWork.Verify(_ => _.ProductRepository.AddAsync(It.IsAny<Product>()));
         unitOfWork.Verify(_ => _.SaveChangesAsync());
-
+        result.Should().BeEquivalentTo(expectedResult);
     }
+    
+
+
 }

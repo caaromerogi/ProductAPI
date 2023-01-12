@@ -1,3 +1,4 @@
+using FluentAssertions;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
@@ -7,7 +8,7 @@ using ProductAPI.Application.Commands.Product.DeleteProduct;
 using ProductAPI.Application.Commands.Product.UpdateProduct;
 using ProductAPI.Application.Common.Models;
 using ProductAPI.Application.Queries.Product.GetPaginatedProduct;
-using ProductAPI.Domain.Models;
+using ProductAPI.Application.Queries.Product.GetProductById;
 using test.MockData;
 
 namespace test.Controllers;
@@ -58,6 +59,21 @@ public class ProductControllerTest
         o1 => Assert.Contains("Product1",o1.ProductName));
     }
 
+    [Fact]
+    public async Task GetById_Ok(){
+        //Arrange
+        var products = new ProductDTOBuilder().BuildList().AsQueryable();
+        var productDTO = new ProductDTOBuilder().Build();
+        mediator.Setup(_ => _.Send(It.IsAny<GetProductByIdQuery>(), It.IsAny<CancellationToken>()))
+        .ReturnsAsync(productDTO);
+        var controller = new ProductController(mediator.Object);
+
+        //Act 
+        var result = await controller.GetProductById(It.IsAny<GetProductByIdQuery>());
+
+        //Assert 
+        result.Should().BeOfType<OkObjectResult>();
+    }
     [Fact]
     public async Task AddProduct_OkObjectResult()
     {
